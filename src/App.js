@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
+import Chuck from '../Chuck_Norris_03.jpg'
 class App extends Component {
   state = {
     quote: ''
