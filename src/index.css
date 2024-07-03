@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./Chuck_Norris_03.jpg);
+  background-image: url(./Generic+Cocktails+-+Christian+Horan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,6 +15,29 @@ code {
     monospace;
 }
  .output{
-  max-width: 33%;
-  font-size: 30px;
+  color: #6488EA;
+
 } 
+
+.answerBox{
+@media (min-width: 700px) {
+  display:block;
+  max-width:450px;
+  max-height: 450px;
+  font-size: 26px;
+}
+
+.cardTitle{
+ margin: auto;
+}
+
+.drinkCards{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+@media(min-width: 460px) {
+  font-size: 16px;
+}
+}
