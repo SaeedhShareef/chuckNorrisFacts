@@ -81,7 +81,7 @@ class App extends Component {
       <div className="container ">
         <div>
         <h1 className="header">Random Cocktail Generator</h1>
-        <Button variant="primary" style={{ marginBottom: '3%', marginLeft: '43%' }} onClick={this.getDrink}>Let's grab a drink</Button>
+        <Button variant="primary" className="drinkButton" style={{marginLeft: '45%'}} onClick={this.getDrink}>Let's grab a drink</Button>
         </div>
        
         <div className="drinkCards">

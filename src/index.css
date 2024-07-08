@@ -23,9 +23,17 @@ code {
     color: white;
 } 
 
-@media (max-width < 650px) {
+.drinkButton{
+margin-bottom: 4%;
+}
+@media only screen and (max-width: 600px){
   .header{
-    font-size: medium;
+    font-size: 16px;
+  }
+
+  .drinkButton{
+    margin-left: 30% !important;
+    font-size: 12px;
   }
 }
 
