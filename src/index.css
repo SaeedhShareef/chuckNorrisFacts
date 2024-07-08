@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./Generic+Cocktails+-+Christian+Horan.jpg);
+  background-image: url(./barTop.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,11 +14,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- .output{
-  color: #6488EA;
-
+ .header{
+  /* color: #6488EA;
+  margin-left: auto;
+  margin-right: auto; */
+  display: block;
+  margin-left: 30%;
+    color: white;
 } 
 
+@media (max-width < 650px) {
+  .header{
+    font-size: medium;
+  }
+}
+
+.drinkCards{
+  display: inline;
+  margin-right: 10px;
+  width: 180px !important;
+  height: fit-content;
+}
 .answerBox{
 @media (min-width: 700px) {
   display:block;
@@ -28,7 +44,7 @@ code {
 }
 
 .cardTitle{
- margin: auto;
+ margin-left: auto;
 }
 
 .drinkCards{
