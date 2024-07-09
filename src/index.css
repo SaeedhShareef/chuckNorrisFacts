@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./barTop.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ .header{
+  /* color: #6488EA;
+  margin-left: auto;
+  margin-right: auto; */
+  display: block;
+  margin-left: 30%;
+    color: white;
+} 
+
+.drinkButton{
+margin-bottom: 4%;
+}
+@media only screen and (max-width: 600px){
+  .header{
+    font-size: 16px;
+  }
+ 
+  .drinkButton{
+    margin-left: 30% !important;
+    font-size: 12px;
+  }
+}
+
+.drinkCards{
+  display: inline;
+  margin-right: 10px;
+  width: 180px !important;
+  height: fit-content;
+}
+.answerBox{
+@media (min-width: 700px) {
+  display:block;
+  max-width:450px;
+  max-height: 450px;
+  font-size: 26px;
+}
+
+.cardTitle{
+ margin-left: auto;
+}
+
+.drinkCards{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+@media(min-width: 460px) {
+  font-size: 16px;
+}
+}
