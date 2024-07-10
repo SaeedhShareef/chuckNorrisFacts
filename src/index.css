@@ -15,25 +15,32 @@ code {
     monospace;
 }
  .header{
-  /* color: #6488EA;
-  margin-left: auto;
-  margin-right: auto; */
-  display: block;
-  margin-left: 30%;
-    color: white;
+  display: flex !important;
+  justify-content: center;
+  color: white;
+  margin-bottom: 4%;
 } 
 
 .drinkButton{
-margin-bottom: 4%;
+display: block !important;
+margin-bottom: 4% !important;
+margin-top: 4%;
+margin: auto;
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 800px){
   .header{
-    font-size: 16px;
+    display: flex !important;
+    text-align: center !important;
+    font-size: 20px;
   }
  
   .drinkButton{
-    margin-left: 30% !important;
+    display: block !important;
+    margin: auto;
     font-size: 12px;
+    margin-bottom: 4% !important;
+    margin-top: 4% !important;
   }
 }
 
@@ -41,19 +48,15 @@ margin-bottom: 4%;
   display: inline;
   margin-right: 10px;
   width: 180px !important;
-  height: fit-content;
 }
-.answerBox{
-@media (min-width: 700px) {
-  display:block;
+
+/* @media only screen and (min-width: 700px) {
+  display: block;
   max-width:450px;
   max-height: 450px;
   font-size: 26px;
-}
+} */
 
-.cardTitle{
- margin-left: auto;
-}
 
 .drinkCards{
   background-color: red;
@@ -61,7 +64,14 @@ margin-bottom: 4%;
   height: 200px;
 }
 
-@media(min-width: 460px) {
-  font-size: 16px;
-}
+@media(max-width: 460px) {
+  .header{
+    display: flex !important;
+    text-align: center !important;
+    margin-block-end: 0;
+  }
+  .drinkButton{
+    display: block !important;
+    margin:auto;
+  }
 }
