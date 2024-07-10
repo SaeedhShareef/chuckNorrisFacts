@@ -7,7 +7,16 @@ import Button from 'react-bootstrap/Button';
 class App extends Component {
   state = {
     quote: "",
+    clickedButton: false
   };
+
+  componentDidMount = () => {
+    // this.setState({
+    //   clickedButton: false
+    // })
+    console.log(this.state.clickedButton);
+  }
+
 
   getDrink = () => {
     axios
@@ -72,8 +81,7 @@ class App extends Component {
           drinkIngredients: filteredList,
           clickedButton: true
         });
-      });
-      console.log(this.state.clickedButton);
+      }).then( console.log(this.state.clickedButton))   
   };
   render() {
     return (
@@ -86,7 +94,7 @@ class App extends Component {
        
         <div className="drinkCards">
      
-        {this.state.clickedButton !== false}
+        {this.state.clickedButton != false}
         <Row xs={1} md={1} lg={1} xl={3}>
         <Card style={{ width: '16rem', marginBottom: '20px', marginLeft: 'auto', marginRight: 'auto' }}>
       <Card.Img variant="top" src={this.state.drinkImage} />
