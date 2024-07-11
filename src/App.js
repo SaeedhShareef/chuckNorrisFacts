@@ -90,7 +90,7 @@ class App extends Component {
               <Card
                 style={{
                   width: "16rem",
-                  height: 'fit-content',
+                  height: "fit-content",
                   marginBottom: "20px",
                   marginLeft: "auto",
                   marginRight: "auto",
@@ -99,7 +99,7 @@ class App extends Component {
                 <Card.Img variant="top" src={this.state.drinkImage} />
                 <Card.Body>
                   <Card.Title
-                    style={{textAlign: 'center' }}
+                    style={{textAlign: "center" }}
                   >
                     {this.state.drinkName}
                   </Card.Title>
@@ -109,7 +109,7 @@ class App extends Component {
                 style={{
                   width: "16rem",
                   marginBottom: "20px",
-                  height: '296px',
+                  height: "296px",
                   marginLeft: "auto",
                   marginRight: "auto",
                 }}
