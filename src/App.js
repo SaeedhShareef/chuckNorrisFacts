@@ -13,7 +13,7 @@ class App extends Component {
       .get("https://www.thecocktaildb.com/api/json/v1/1/random.php")
       .then((res) => {
         console.log("response", res);
-        let ingredientArray = []; 
+        let ingredientArray = [];  
         if (res.data.drinks[0].strIngredient1 != null) {
           ingredientArray.push(res.data.drinks[0].strIngredient1);
         }
