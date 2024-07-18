@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/randomDrinkGenerator/static/css/main.b96c67c3.chunk.css",
-    "main.js": "/randomDrinkGenerator/static/js/main.9bc2b647.chunk.js",
+    "main.css": "/randomDrinkGenerator/src/index.css",
+    "main.js": "/randomDrinkGenerator/src/App.js",
     "main.js.map": "/randomDrinkGenerator/static/js/main.9bc2b647.chunk.js.map",
     "runtime-main.js": "/randomDrinkGenerator/static/js/runtime-main.6c589804.js",
     "runtime-main.js.map": "/randomDrinkGenerator/static/js/runtime-main.6c589804.js.map",
@@ -12,7 +12,7 @@
     "service-worker.js": "/randomDrinkGenerator/service-worker.js",
     "static/css/main.b96c67c3.chunk.css.map": "/randomDrinkGenerator/static/css/main.b96c67c3.chunk.css.map",
     "static/js/2.98295ffa.chunk.js.LICENSE.txt": "/randomDrinkGenerator/static/js/2.98295ffa.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/randomDrinkGenerator/static/media/Chuck_Norris_03.626e3a57.jpg"
+    "static/media/index.css": "/randomDrinkGenerator/src/index.css"
   },
   "entrypoints": [
     "static/js/runtime-main.6c589804.js",
