@@ -74,7 +74,7 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="container">
+      <div className="container" id="root">
         <h1 className="header">Random Cocktail Generator</h1>
         <Button
           variant="primary"
